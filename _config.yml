@@ -41,13 +41,14 @@ logo:                  /assets/img/headshot.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <Alex> <Byrne>
-  email:               <lxbyrne@yahoo.com>
-  picture:
+  name:                Alex Byrne
+  email:               lxbyrne@yahoo.com
+  picture:             assets/img/headshot.jpg
   social:
     linkedin: alex-byrne-033692346
     github: lxbyrne
     email: lxbyrne@yahoo.com
+    google: https://scholar.google.com/citations?hl=en&user=cOy0qtwAAAAJ
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
