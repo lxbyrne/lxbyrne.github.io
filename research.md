@@ -23,7 +23,7 @@ Although we were unable to get a definitive answer as to how the role propargyl 
 1. this list will be replaced by the toc
 {:toc .large-only}
 
-![Screenshot](/assets/img/Research/Model_overview.pdf){:.lead width="1920" height="1080" loading="lazy"}
+![Model](/assets/img/Research/Model_overview.png){:.lead width="1920" height="1080" loading="lazy"}
 
 An overview of the kinetic model used in this project.
 {:.figcaption}
