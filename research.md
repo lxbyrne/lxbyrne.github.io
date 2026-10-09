@@ -7,8 +7,8 @@ hide_description: true
 ---
 
 # Research
-{:lead}
 
+{:.lead}
 My PhD research has primarily focused on using chemical physics simulations, data science, and machine learning to answer questions at the forefront of low-temperature, gas-phase chemistry. In particular, a large goal of mine has been to understand the formation of molecules called polycyclic aromatic hydrocarbons in extreme environments such as the interstellar medium. On Earth, aromaticity is a critical stabilizing force in organic chemistry that is used to make many pharmaceuticals. Polycyclic aromatic hydrocarbons contain this same stabilizing force but are carcinogenic pollutants formed from incomplete combustion that cause respiratory disease and global warming. In space, these molecules are widespread and some of the largest that have been detected to date.
 
 Take a look at the following sections to see the major projects that I have led during my career!
@@ -23,7 +23,7 @@ Although we were unable to get a definitive answer as to how the role propargyl 
 1. this list will be replaced by the toc
 {:toc .large-only}
 
-!(/assets/img/Research/Model_overview.pdf){:.lead width="1920" height="1080" loading="lazy"}
+![Screenshot](/assets/img/Research/Model_overview.pdf){:.lead width="1920" height="1080" loading="lazy"}
 
 An overview of the kinetic model used in this project.
 {:.figcaption}

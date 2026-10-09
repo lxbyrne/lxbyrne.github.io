@@ -14,12 +14,10 @@ redirect_from:
 
 ## Hello!
 
-{:lead}
-
+{:.lead}
 I'm Alex Byrne, a computational chemist, data scientist, science communicator, and science policy enthusiast. I've always enjoyed learning about science in its many forms, particularly when it comes to understanding how the world works and using this knowledge to make the world a better place. While chemistry was my first love, I've also developed a strong appreciation for astronomy, physics, earth and atmospheric science, and science policy. 
 
 I love the process of digging into complicated data, uncovering the story hiding within it, and communicating this story to others. I hope to use my scientific training to help science reach the people that it needs to and to solve some of the greatest challenges facing our generation, such as climate and sustainability. 
-
 {:.lead}
 
 1. this list will be replaced by the toc
