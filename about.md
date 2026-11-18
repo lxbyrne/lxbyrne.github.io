@@ -38,7 +38,7 @@ Through my research I developed a number of technical and computational skills s
 
 Prior to my graduate studies, I obtained my Bachelor of Science in Chemistry with a minor in French from Temple University in Philadelphia. I contributed to two major research projects during my time at Temple--an exploration of a novel "click" chemistry reaction for inorganic synthesis and the development of a new method for calculating partial atomic charges using x-ray diffraction.  
 
-To learn more about my current and past research projects, check out my [Research] page!
+Take a look at the [Research] page to learn more about my PhD work, and the [Projects] page to learn how I have used and developed computational tools throughout this work!
 
 ## Communication and Collaboration
 
@@ -63,5 +63,6 @@ During my PhD, I also developed a strong interest in science policy. I realized 
 Check out the [Policy & Outreach] page of this website for information on these experiences!
 
 [Research]: /research/
+[Projects]: /projects/
 [Policy & Outreach]: /policy_outreach/
 
