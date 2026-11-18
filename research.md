@@ -58,9 +58,8 @@ Being active and generous in my communities is something I care deeply about. Th
 
 During my PhD, I also developed a strong interest in science policy. I realized that while many scientists such as myself wanted our work to make a difference in the world, I knew very little about what happens to this work once it leaves academia. I quickly became deeply involved in multiple science policy organizations where I learned firsthand how scientists can create impact by translating their work to policymakers and advocating for science-informed policies. 
 
-Check out the [Policy] and [Outreach] pages of this website for information on these experiences!
+Check out the [Policy & Outreach] pages of this website for information on these experiences!
 
 [Research]: /research/
-[Policy]: /policy/
-[Outreach]: /outreach/
+[Policy & Outreach]: /policy_outreach/
 
