@@ -58,10 +58,10 @@ menu:
     url:               /about/
   - title:             Research
     url:               /research/
-  - title:             Policy
-    url:               /policy/
-  - title:             Outreach
-    url:               /outreach/
+  - title:             Projects
+    url:               /projects/
+  - title:             Policy & Outreach
+    url:               /policy_outreach/
   - title:             CV
     url:               /cv
 
