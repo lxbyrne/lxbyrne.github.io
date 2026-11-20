@@ -23,10 +23,6 @@ Molecular clouds are one of the earliest stages of the star formation process, w
 
 I am espeically interested in a class of molecule called polycyclic aromatic hydrocarbons (PAHs). On Earth, PAHs are pollutants that are created through incomplete combustion and lead to cancer, respiratory disease, and global warming. In space, they are thought to be widespread and major reservoirs of carbon. Individual PAHs have only been recently detected in the cold Taurus Molecular Cloud, an environment much unlike their terrestrial combustion origins. Much of my modeling work has focused on this new frontier of low-temperature PAH formation as part of the interdisciplinary and international GOTHAM collaboration. Through this modeling work, I have found that hydrocarbons with three carbon atoms are key precursors to PAHs, but their interstellar chemistry is still not well-understood [(Byrne et al. 2023)](https://iopscience.iop.org/article/10.3847/1538-4357/acf863).
 
-![Model](/assets/img/Research/Model_overview.png){:.lead width="1920" height="1080" loading="lazy"}
-
-An overview of the kinetic model used in this project.
-{:.figcaption}
 
 ## Sensitivity Analyses of Astrochemical Models
 

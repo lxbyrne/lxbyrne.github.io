@@ -19,9 +19,14 @@ As a computational chemist, I have five years of experience developing novel com
 
 ## Computational Modeling of Hydrocarbon Chemistry
 
-Throughout my graduate research, I have extensively used kinetic models to simulate the chemistry of extreme, interstellar environments. These codes take in a large number of input parameters, set up a system of ordinary differential equations, and solve these equations for time-dependent molecular abundances. I have thoroghly revised this model using comprehensive literature reviews and data quality assessment. Building an accurate model is a detail-oriented process that requires understanding where the current data comes from, evaluating alternative sources of data to determine if they are more suitable, incorporating new parameters in a physically reasonable way, and keeping track of any assumptions made during this process. I have also written data analysis and visualization scripts with Python to rigorously analyze and benchmark the results of these models. 
+Throughout my graduate research, I have extensively developed kinetic models to simulate the chemistry of extreme, interstellar environments. These codes take in a large number of input parameters, set up a system of ordinary differential equations, and solve these equations for time-dependent molecular abundances. I have thoroghly revised this model using comprehensive literature reviews and data quality assessment. Building an accurate model is a detail-oriented process that requires understanding where the current data comes from, evaluating alternative sources of data to determine if they are more suitable, incorporating new parameters in a physically reasonable way, and keeping track of any assumptions made during this process. I have also written data analysis and visualization scripts with Python to rigorously analyze and benchmark the results of these models. 
 
 One of the largest updates to this model was a research project that I led to incorporate new formation routes to large hydrocarbon molecules and revise existing reactions. I added and revised over 100 parameters including rate coefficients, product distributions, binding energies, and activation energies to create a model with some of the most in-depth carbon chemistry to-date.
+
+![Model](/assets/img/Research/Model_overview.png){:.lead width="1920" height="1080" loading="lazy"}
+
+The kinetic model I developed for investigating hydrocarbon chemistry includes thousands of physical and chemical input parameters.
+{:.figcaption}
 
 ## BATMAN Chemical Model
 
@@ -33,9 +38,19 @@ In any kind of computational model, there is uncertainty in the input parameters
 
 I implemented these analyses using Python and bash programming along with parallel computing so that I could feasibly run over 150,000 model iterations. I then used Python programming with Numpy, Dask, and Pandas to analyze the large datasets that I generated, Matplotlib to create data visualization scripts, and HDF5 file formats to efficiently store large amounts of data in a hierarchical format. These results provide the astrochemistry community with actionable insight in the form of specific reactions that are high priorities for future study. I have made the data from this project, which includes the raw data, the worked-up sensitivities, and scripts for generating analyzing, and visualizing data, available to the public in a [Zenodo repository](https://zenodo.org/records/13257329).
 
+![Sensitivity Analysis](/assets/img/Research/Sens_Analysis.png){:.lead width="1920" height="1080" loading="lazy"}
+
+I applied two sensitivity analysis techniques, one quantitative and one statistical, to identify key reactions in a chemical model.
+{:.figcaption}
+
+
 ## Machine Learning for Model Visualization
 
 Machine learning is a powerful tool for many scientific problems thanks to its abilities to learn complex patterns, perform high-throughput analysis, and even generate novel data. Early in my graduate career, I helped develop a machine learning pipeline to predict molecular abundances based on chemical structure. This pipeline uses a pre-trained autoencoder that converts string representations of molecular structures (ie. SMILES strings) into multi-dimensional vectors. I trained linear regression models on collected experimental data to predict molecular abundances based on these vectors. 
 
 Later in my research career, I expanded this pipeline to create a new way of visualizing model behavior. Typically this data is visualized by plotting the time-series data of select molecules. I wanted to be able to have a holistic view of how the entire model evolves as a function of time. I used web-scraping tools to collect SMILES strings for all molecules in the model, transformed them into 32-dimensional vectors using the aforementioned pipeline, applied Uniform Manifold Approximation and Projection (UMAP) to reduce these vectors into two-dimensions, and plotted every molecule according to these dimensions. This allowed me to visualize the model in a machine-learned "chemical space", or a vector space where distance is a measure of chemical similarity. I used this method to create videos like the one below, where all of the point sizes are scaled by the fraction of carbon contained in that molecule at that time. Through these videos I am able to show how the main forms of carbon change as a function of time or any other desired parameter.
+
+![Machine Learning Visualization](/assets/img/Research/Sens_Analysis.png){:.lead width="1920" height="1080"}
+
+An output video of chemistry over time as visualized through the machine learning pipeline I developed. Each point is a molecule, the size is scaled by abundance of carbon, and the structures of molecules that contain at least 2% of carbon are shown.
 
