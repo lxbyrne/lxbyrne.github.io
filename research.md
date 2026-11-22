@@ -1,6 +1,5 @@
 ---
 layout: page
-image: /assets/img/headshot.jpg
 description: >
   Past and present research projects
 hide_description: true

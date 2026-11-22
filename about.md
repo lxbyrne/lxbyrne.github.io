@@ -1,11 +1,11 @@
 ---
 layout: about
-image: /assets/img/headshot.jpg
 description: >
   About me: education, research career, advocacy and outreach work, and current interests.
 hide_description: true
 redirect_from:
   - /
+  - https://lxbyrne.github.io/
 ---
 
 # About

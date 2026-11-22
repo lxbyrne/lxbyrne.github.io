@@ -1,6 +1,5 @@
 ---
 layout: page
-image: /assets/img/headshot.jpg
 description: >
   Policy and Outreach Experience
 hide_description: true

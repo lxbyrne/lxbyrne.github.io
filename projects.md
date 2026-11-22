@@ -1,6 +1,5 @@
 ---
 layout: page
-image: /assets/img/headshot.jpg
 description: >
   Past and present professional projects
 hide_description: true
@@ -48,9 +47,10 @@ I applied two sensitivity analysis techniques, one quantitative and one statisti
 
 Machine learning is a powerful tool for many scientific problems thanks to its abilities to learn complex patterns, perform high-throughput analysis, and even generate novel data. Early in my graduate career, I helped develop a machine learning pipeline to predict molecular abundances based on chemical structure. This pipeline uses a pre-trained autoencoder that converts string representations of molecular structures (ie. SMILES strings) into multi-dimensional vectors. I trained linear regression models on collected experimental data to predict molecular abundances based on these vectors. 
 
-Later in my research career, I expanded this pipeline to create a new way of visualizing model behavior. Typically this data is visualized by plotting the time-series data of select molecules. I wanted to be able to have a holistic view of how the entire model evolves as a function of time. I used web-scraping tools to collect SMILES strings for all molecules in the model, transformed them into 32-dimensional vectors using the aforementioned pipeline, applied Uniform Manifold Approximation and Projection (UMAP) to reduce these vectors into two-dimensions, and plotted every molecule according to these dimensions. This allowed me to visualize the model in a machine-learned "chemical space", or a vector space where distance is a measure of chemical similarity. I used this method to create videos like the one below, where all of the point sizes are scaled by the fraction of carbon contained in that molecule at that time. Through these videos I am able to show how the main forms of carbon change as a function of time or any other desired parameter.
+Later in my research career, I expanded this pipeline to create a new way of visualizing model behavior. Typically this data is visualized by plotting the time-series data of select molecules. I wanted to be able to have a holistic view of how the entire model evolves as a function of time. I used web-scraping tools to collect SMILES strings for all molecules in the model, transformed them into 32-dimensional vectors using the aforementioned pipeline, applied Uniform Manifold Approximation and Projection (UMAP) to reduce these vectors into two-dimensions, and plotted every molecule according to these dimensions. This allowed me to visualize the model in a machine-learned "chemical space", or a vector space where distance is a measure of chemical similarity. I used this method to create videos like the one below, where all of the point sizes are scaled by the fraction of carbon contained in that molecule at that time. Through these videos I am able to show how the main forms of carbon change as a function of time or any other desired parameter.  
 
-<video width="320" height="240" controls loop="" muted="" autoplay="">
+
+<video width="844" height="790" controls loop="" muted="">
     <source src="https://github.com/lxbyrne/lxbyrne.github.io/raw/refs/heads/main/assets/img/Research/C_O_1.0.mp4" />
 </video>
 
