@@ -5,7 +5,7 @@ description: >
   About me: education, research career, advocacy and outreach work, and current interests.
 hide_description: true
 redirect_from:
-  - /download/
+  - /
 ---
 
 # About
@@ -15,20 +15,13 @@ redirect_from:
 ## Hello!
 
 {:.lead}
-I'm Alex Byrne, a computational chemist, data scientist, science communicator, and science policy enthusiast. I've always enjoyed learning about science in its many forms, particularly when it comes to understanding how the world works and using this knowledge to make the world a better place. While chemistry was my first love, I've also developed a strong appreciation for astronomy, physics, earth and atmospheric science, and science policy. 
+I'm Alex Byrne—a computational chemist, data scientist, science communicator, and science policy enthusiast. My favorite part of being a scientist is getting to explore the many interesting areas of science and learn how they connect to each other. As the "central science", a background in chemistry is an excellent way to accomplish this! 
 
-I love the process of digging into complicated data, uncovering the story hiding within it, and communicating this story to others. I hope to use my scientific training to help science reach the people that it needs to and to solve some of the greatest challenges facing our generation, such as climate and sustainability. 
+I love the process of digging into complicated data, uncovering the story hiding within it, and communicating this story to others in order to create impact. I hope to use my research, data analysis, and communication skills to help solve some of the greatest scientific challenges facing the world today, such as those in climate and sustainability. 
 {:.lead}
 
 1. this list will be replaced by the toc
 {:toc .large-only}
-
-<!--
-![Screenshot](/assets/img/blog/hydejack-9.jpg){:.lead width="1920" height="1080" loading="lazy"}
-
-Hydejack's cover page on a variety of screen sizes.
-{:.figcaption}
--->
 
 ## Education and Research
 
