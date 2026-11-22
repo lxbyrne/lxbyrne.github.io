@@ -50,7 +50,9 @@ Machine learning is a powerful tool for many scientific problems thanks to its a
 
 Later in my research career, I expanded this pipeline to create a new way of visualizing model behavior. Typically this data is visualized by plotting the time-series data of select molecules. I wanted to be able to have a holistic view of how the entire model evolves as a function of time. I used web-scraping tools to collect SMILES strings for all molecules in the model, transformed them into 32-dimensional vectors using the aforementioned pipeline, applied Uniform Manifold Approximation and Projection (UMAP) to reduce these vectors into two-dimensions, and plotted every molecule according to these dimensions. This allowed me to visualize the model in a machine-learned "chemical space", or a vector space where distance is a measure of chemical similarity. I used this method to create videos like the one below, where all of the point sizes are scaled by the fraction of carbon contained in that molecule at that time. Through these videos I am able to show how the main forms of carbon change as a function of time or any other desired parameter.
 
-![Machine Learning Visualization](/assets/img/Research/C_O_1.0.mp4){:.lead width="1688" height="1580" loading="lazy"}
+<videocontrolswidth="900">
+<sourcesrc="/assets/img/Research/C_O_1.0.mp4"type="video/mp4">
+</video>
 
 An output video of chemistry over time as visualized through the machine learning pipeline I developed. Each point is a molecule, the size is scaled by abundance of carbon, and the structures of molecules that contain at least 2% of carbon are shown.
-
+{:.figcaption}
